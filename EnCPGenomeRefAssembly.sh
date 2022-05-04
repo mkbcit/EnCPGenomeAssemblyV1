@@ -31,7 +31,7 @@
          multiqc RAWQC/.
 
 	
-##### Step 3 Cleaning Triming Adapter seq,$INPUTFILE/ low quality reads using TrimmomaticPE
+##### Step 3 Cleaning Triming Adapter seq, low quality reads using TrimmomaticPE
  	mkdir CleanRead
         cat EnSRAlist.txt | \
  	parallel "TrimmomaticPE     -threads  30    -phred33   RAW/{}_1.fastq.gz   RAW/{}_2.fastq.gz  \
