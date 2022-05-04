@@ -1,5 +1,3 @@
-=======================================================================================
-
        This bash script design for reference based chloroplast genome assembly
        written by Dr. Manosh Kumar Biswas @UOL  26April 2022  
  
@@ -9,10 +7,8 @@
                 4. Extract consesus sequences assembly 
                 5. Functional Annotation CP genes 
                
-===============================================================================
-
-   Dependent tools list: 1. sratoolkit [fastq-dump.3.0.0]
-                         2. fastqc, multiQC, Trimmomatic 
-                         3. BOWTIE2, samtools [view, bam2fq] 
-                         
-=============================================================================== 
+               
+# Dependent tools list: 
+       1. sratoolkit [fastq-dump.3.0.0]
+       2. fastqc, multiQC, Trimmomatic 
+       3. BOWTIE2, samtools [view, bam2fq]
